@@ -26,18 +26,31 @@
   background-size: cover;
   background-position: center;
 }
+.breed-select {
+  // margin: 16px;
+  max-width: 400px;
+  margin: auto;
+}
 
 .cat-info {
   display: flex;
-  width: 100%;
+  max-width: 100%;
   justify-content: center;
-
-  img#cat_image {
-    max-width: 300px;
-    object-fit: cover;
-  }
+  flex-wrap: nowrap;
+  margin-top: 16px;
+  padding: 20px;
+  gap: 40px;
 }
 
+img {
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+  //   object-fit: cover;
+}
+.cat-text {
+  width: 400px;
+}
 .hidden {
   position: absolute;
   width: 1px;
